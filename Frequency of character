@@ -1,0 +1,26 @@
+#include<stdio.h>
+
+int main()
+{
+    char ch[100], key;
+    int i, count = 0;
+
+    printf("Enter a string:\n");
+    gets(ch);
+    printf("Enter a character you want to find:\n");
+    scanf("%c", &key);
+
+    for(i=0; ch[i]!='\0'; i++)
+    {
+        if(ch[i]==key)
+        {
+            count++;
+        }
+    }
+
+    printf("Frequency of Character: %d\n", count);
+
+
+    return 0;
+
+}
