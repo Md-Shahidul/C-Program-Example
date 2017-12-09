@@ -1,2 +1,4 @@
 # Hello-World
-This this my C language First Program. Hello World
+
+
+This is me. I create a repository to pactice githup.
